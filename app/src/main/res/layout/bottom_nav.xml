@@ -2,6 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_alignParentBottom="true">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -10,6 +12,45 @@
         android:id="@+id/bottomNavViewBar"
         android:background="@color/colorPrimary">
 
+        <LinearLayout
+            android:id="@+id/bottombar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:orientation="horizontal"
+
+            tools:layout_editor_absoluteY="682dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="12dp"
+                android:onClick="onClick"
+                android:id="@+id/search_button"
+                app:srcCompat="@android:drawable/ic_search_category_default" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginRight="75dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:onClick="onClick"
+                android:id="@+id/home_button"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:onClick="onClick"
+                android:id="@+id/profile_button"
+                app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+        </LinearLayout>
 
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
