@@ -2,7 +2,11 @@ package com.example.peopletailwireframes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
 public class SignUpSignIn extends AppCompatActivity {
 
@@ -11,4 +15,6 @@ public class SignUpSignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_sign_in);
     }
+
+
 }
