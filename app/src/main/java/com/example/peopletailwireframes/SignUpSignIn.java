@@ -15,6 +15,10 @@ public class SignUpSignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_sign_in);
     }
+    public void SignIn(View view)
+    {
+        startActivity(new Intent(SignUpSignIn.this, ReviewPage.class));
+    }
 
 
 }
