@@ -7,17 +7,190 @@
     android:layout_height="match_parent"
 
     tools:context=".MainActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:popupTheme="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:theme="@style/AppTheme">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile_icon"
+                    android:background="@color/white"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:background="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/top_logo" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:background="@color/white"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/star_2" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/white"
+                    android:src="@drawable/award_logo" />
+
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="____ REVIEWS"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"/>
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="@string/review_1"
+                android:textColor="@color/orange"
+                />
+            <ImageButton
+                android:id="@+id/nextPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/big_star"
+                android:layout_margin="30dp"
+                android:onClick="viewReview"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Review 2"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="18sp"
+            android:text="Demo Text"
+            android:textColor="@color/orange"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:textSize="18sp"
+                android:text="Demo Text"
+                android:textColor="@color/orange"
+                />
+
+
+        </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/orange"
-        android:src="@drawable/ic_shopping_cart_black_24dp"
-        app:layout_anchor="@id/action_bar"/>
+        android:src="@drawable/button_logo"
+        app:layout_anchor="@id/action_bar"
+        />
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/action_bar"
@@ -25,28 +198,28 @@
         android:layout_height="wrap_content"
         app:backgroundTint="@color/white"
         android:layout_gravity="bottom"
-        app:fabAlignmentMode="center"
-        app:fabCradleRoundedCornerRadius="20dp"
-
-        app:fabCradleMargin="10dp"
         app:hideOnScroll="true"
-
         >
-        <androidx.appcompat.widget.AppCompatImageButton
+
+         <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+             android:layout_height="wrap_content"
             android:src="@drawable/ic_home_black_24dp"
             android:backgroundTint="@color/white"
+            android:id="@+id/home"
+            android:onClick="onClick"
             android:layout_marginLeft="50dp"/>
 
-        <androidx.appcompat.widget.AppCompatImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_challenges"
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/challenges"
             android:backgroundTint="@color/white"
-            android:layout_marginLeft="160dp"/>
+            android:id="@+id/challenges"
+            android:onClick="onClick"
 
-
+            android:layout_marginLeft="190dp"/>
     </com.google.android.material.bottomappbar.BottomAppBar>
 
 
