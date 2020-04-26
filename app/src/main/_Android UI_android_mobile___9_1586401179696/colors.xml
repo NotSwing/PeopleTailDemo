@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android_mobile___9 colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+
+	<color name="_bg__android_mobile___9_color">#ffffff</color>
+	<color name="_____text___body_1___selected___on_surface___medium_emphasis___left__color">#333333</color>
+	<color name="open_color">#ffffff</color>
+	<color name="home_color">#cccccc</color>
+	<color name="challenge_color">#ff6a4e</color>
+	<color name="ellipse_15_color">#ff6a4e</color>
+	<color name="challenge_ek1_color">#000000</color>
+	<color name="rectangle_373_color">#fafafa</color>
+</resources>

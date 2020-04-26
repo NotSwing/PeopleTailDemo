@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- android_mobile___9 strings -->
+
+	<string name="app_name">Android Mobile  9</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="_____text___body_1___selected___on_surface___medium_emphasis___left__string">January</string>
+	<string name="_____text___body_1___selected___on_surface___medium_emphasis___left__ek1_string">February</string>
+	<string name="_____text___body_1___selected___on_surface___medium_emphasis___left__ek2_string">March</string>
+	<string name="open_string">Open</string>
+	<string name="open_ek1_string">Open</string>
+	<string name="open_ek2_string">Open</string>
+	<string name="open_ek3_string">Open</string>
+	<string name="ended_january_3__2020_string">Ended January 3, 2020</string>
+	<string name="ended_january_3__2020_ek1_string">Ended January 3, 2020</string>
+	<string name="ended_january_3__2020_ek2_string">Ended January 3, 2020</string>
+	<string name="ended_january_3__2020_ek3_string">Ended January 3, 2020</string>
+	<string name="challenge_title_headlines_string">Challenge title/headlines</string>
+	<string name="challenge_title_headlines_ek1_string">Challenge title/headlines</string>
+	<string name="challenge_title_headlines_ek2_string">Challenge title/headlines</string>
+	<string name="challenge_title_headlines_ek3_string">Challenge title/headlines</string>
+	<string name="home_string">Home</string>
+	<string name="challenge_string">Challenge</string>
+	<string name="challenge_ek1_string">Challenge</string>
+	<string name="ended_string">Ended</string>
+</resources>

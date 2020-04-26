@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="309dp"
+        android:layout_height="246dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <ImageButton
+            android:id="@+id/challengeImg"
+            android:layout_width="276dp"
+            android:layout_height="178dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13999999"
+            app:srcCompat="@drawable/gooper" />
+
+        <TextView
+            android:id="@+id/challengeName"
+            android:layout_width="276dp"
+            android:layout_height="29dp"
+            android:text="Challenge Name"
+            app:layout_constraintBottom_toBottomOf="@+id/ChallegeName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/challengeImg"
+            app:layout_constraintVertical_bias="0.31" />
+
+        <TextView
+            android:id="@+id/challengeDate"
+            android:layout_width="276dp"
+            android:layout_height="19dp"
+            android:text="End date"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/challengeImg"
+            app:layout_constraintVertical_bias="0.79" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

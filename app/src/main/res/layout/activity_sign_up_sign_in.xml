@@ -39,6 +39,7 @@
         android:layout_marginTop="9dp"
         android:layout_marginEnd="225dp"
         android:text="Sign In"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/existingUsers" />
@@ -63,6 +64,7 @@
         android:layout_marginTop="56dp"
         android:layout_marginEnd="218dp"
         android:text="Sign Up"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
