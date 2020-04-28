@@ -24,7 +24,21 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="157dp"
         android:text="Sign In"
+        android:onClick="onClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/SignInFailMessage" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="ForgotPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="15dp"
+        android:onClick="onClick"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

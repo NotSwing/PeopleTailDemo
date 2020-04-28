@@ -94,6 +94,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:text="Sign Up"
+        android:onClick="onClick"
         app:layout_constraintTop_toBottomOf="@+id/checkBox"
         tools:layout_editor_absoluteX="1dp" />
 
