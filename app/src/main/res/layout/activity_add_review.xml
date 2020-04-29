@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/txt_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/surface02"
+    android:drawableStart="@android:drawable/ic_menu_gallery"
+    android:drawableEnd="@drawable/icon_close"
+    android:text="Create A Review"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/background_dark"
+
+
+    />
+
+<EditText
+    android:id="@+id/review_headline"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/txt_review"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/surface02"
+    android:hint="Review Headline"
+    android:textSize="18sp"/>
+
+
+<EditText
+    android:id="@+id/write_review"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/review_headline"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/surface01"
+    android:drawableRight="@drawable/icon_voice"
+    android:hint="Write Your Review"
+    android:textSize="18sp"/>
+
+<TextView
+    android:id="@+id/add_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/write_review"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="20dp"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:text="Add Photos or Videos"
+    android:textColor="@android:color/background_dark"/>
+
+<ImageView
+    android:id="@+id/img_Upload01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/add_text"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:background="@drawable/item_add"
+
+    />
+
+<ImageView
+    android:id="@+id/img_Upload02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/add_text"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_toEndOf="@+id/img_Upload01"
+    android:background="@drawable/item_add"
+
+    />
+
+<ImageView
+    android:id="@+id/img_Upload03"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/add_text"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_toEndOf="@+id/img_Upload02"
+    android:background="@drawable/item_add"
+
+    />
+
+<ImageView
+    android:id="@+id/img_Upload04"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/add_text"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_toEndOf="@+id/img_Upload03"
+    android:background="@drawable/item_add"
+
+    />
+
+<TextView
+    android:id="@+id/text_attachment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/img_Upload01"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textSize="16sp"
+    android:textColor="@android:color/darker_gray"
+    android:text="Please only include items you own. You can attach up to 4 items. "/>
+
+<TextView
+    android:id="@+id/text_available"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text_attachment"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="15dp"
+    android:textAllCaps="true"
+    android:text="AVAILABLE AT "
+    android:textSize="20sp"
+    android:textColor="@android:color/background_dark"
+    android:textStyle="bold"/>
+
+
+<Button
+    android:id="@+id/add_retailers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_oval"
+    android:text=" +    Add"
+    android:textColor="@android:color/darker_gray"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="15dp"
+    android:layout_below="@+id/text_attachment"
+
+    />
+
+<TextView
+    android:id="@+id/text_buy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/text_available"
+    android:layout_marginTop="40dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:textSize="18sp"
+    android:textAlignment="center"
+    android:text="Let others know where they can buy the product(s) you're reviewing."
+    android:textColor="@android:color/darker_gray"/>
+
+<Button
+    android:id="@+id/btn_publish"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/publish_btn"
+    android:text="Publish"
+    android:layout_marginBottom="30dp"
+    android:textColor="@android:color/white"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    />
+
+</RelativeLayout>
