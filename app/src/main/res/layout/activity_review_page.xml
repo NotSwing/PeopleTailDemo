@@ -17,7 +17,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/orange"
         android:src="@drawable/ic_shopping_cart_black_24dp"
-        app:layout_anchor="@id/action_bar"/>
+        app:layout_anchor="@id/action_bar"
+        android:onClick="onClick"/>
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/action_bar"
