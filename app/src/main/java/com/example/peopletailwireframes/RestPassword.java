@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class RestPassword extends AppCompatActivity {
 
@@ -20,7 +21,7 @@ public class RestPassword extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onClickSend (){
-
+    public void onClickSend (View view){
+        Toast.makeText(this, "Email sent", Toast.LENGTH_SHORT).show();
     }
 }

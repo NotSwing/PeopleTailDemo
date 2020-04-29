@@ -1,8 +1,11 @@
 package com.example.peopletailwireframes;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
@@ -32,4 +35,11 @@ public class ReviewPage extends AppCompatActivity {
         }
         return true;
     }
+
+    public void onClick (View view){
+
+        Intent intent = new Intent(ReviewPage.this, AddReview.class);
+        startActivity(intent);
+    }
+
 }
