@@ -87,7 +87,8 @@
         android:background="@drawable/sign_in_button"
         android:layout_gravity="center"
         android:text="Sign in"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:onClick="onClick"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -95,7 +96,7 @@
         android:text="Or"
         android:textColor="@android:color/darker_gray"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp" />
 
     <LinearLayout
         android:id="@+id/facbookLoginButtonArea"
