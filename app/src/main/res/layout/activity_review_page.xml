@@ -218,7 +218,7 @@
             android:src="@drawable/challenges"
             android:backgroundTint="@color/white"
             android:id="@+id/challenges"
-            android:onClick="onClick"
+            android:onClick="onClick2"
 
             android:layout_marginLeft="190dp"/>
     </com.google.android.material.bottomappbar.BottomAppBar>
