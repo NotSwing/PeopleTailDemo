@@ -42,5 +42,10 @@ public class ReviewPage extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClick2 (View view){
+
+        Intent intent = new Intent(ReviewPage.this, Challenge.class);
+        startActivity(intent);
+    }
 
 }
