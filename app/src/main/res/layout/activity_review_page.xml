@@ -38,14 +38,16 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_home_black_24dp"
             android:backgroundTint="@color/white"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="50dp"
+            android:id="@+id/home"/>
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_challenges"
             android:backgroundTint="@color/white"
-            android:layout_marginLeft="160dp"/>
+            android:layout_marginLeft="160dp"
+            android:onClick="onClick2"/>
 
 
     </com.google.android.material.bottomappbar.BottomAppBar>
