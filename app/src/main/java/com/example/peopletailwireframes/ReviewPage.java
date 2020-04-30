@@ -47,5 +47,9 @@ public class ReviewPage extends AppCompatActivity {
         Intent intent = new Intent(ReviewPage.this, Challenge.class);
         startActivity(intent);
     }
+    public void viewReview (View view){
 
+        Intent intent = new Intent(ReviewPage.this, AddReview.class);
+        startActivity(intent);
+    }
 }
