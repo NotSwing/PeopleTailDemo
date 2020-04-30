@@ -38,6 +38,12 @@ public class AddReview extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void publish (View view){
+
+        Intent intent = new Intent(AddReview.this, ReviewPage.class);
+        startActivity(intent);
+    }
+
 
 }
 
