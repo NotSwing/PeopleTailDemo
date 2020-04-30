@@ -13,14 +13,8 @@
         <activity android:name=".AddReview" />
         <activity android:name=".ReviewPage" />
         <activity android:name=".ReviewsPage" />
-        <activity android:name=".PeopleTailMainView" />
-        <activity android:name=".ResetSuccess" />
-        <activity android:name=".NewPassword" />
         <activity android:name=".RestPassword" />
-        <activity android:name=".SignInFail" />
         <activity android:name=".SignIn" />
-        <activity android:name=".SignUpMain" />
-        <activity android:name=".SignUpSignIn" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
