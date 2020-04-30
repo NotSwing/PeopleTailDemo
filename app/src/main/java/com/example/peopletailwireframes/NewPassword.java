@@ -21,4 +21,11 @@ public class NewPassword extends AppCompatActivity {
 
 
     }
+
+    public void Onclick(View view){
+        Intent intent = new Intent(NewPassword.this, ResetSuccess.class);
+        startActivity(intent);
+
+
+    }
 }
